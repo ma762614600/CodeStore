@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB323D441C9A9D3400A1C1EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB323D431C9A9D3400A1C1EE /* main.m */; };
+		AB323D471C9A9D3400A1C1EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB323D461C9A9D3400A1C1EE /* AppDelegate.m */; };
+		AB323D4A1C9A9D3400A1C1EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB323D491C9A9D3400A1C1EE /* ViewController.m */; };
+		AB323D4D1C9A9D3400A1C1EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB323D4B1C9A9D3400A1C1EE /* Main.storyboard */; };
+		AB323D4F1C9A9D3400A1C1EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB323D4E1C9A9D3400A1C1EE /* Assets.xcassets */; };
+		AB323D521C9A9D3400A1C1EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB323D501C9A9D3400A1C1EE /* LaunchScreen.storyboard */; };
+		AB323D5D1C9A9D3400A1C1EE /* RecordButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB323D5C1C9A9D3400A1C1EE /* RecordButtonDemoTests.m */; };
+		AB323D681C9A9D3400A1C1EE /* RecordButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB323D671C9A9D3400A1C1EE /* RecordButtonDemoUITests.m */; };
+		ABC79C351C9A9F7A00ACC4DB /* RecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC79C341C9A9F7A00ACC4DB /* RecordButton.m */; };
+		ABC79C5E1C9AC0CC00ACC4DB /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABC79C501C9AC0CC00ACC4DB /* amrFileCodec.mm */; };
+		ABC79C5F1C9AC0CC00ACC4DB /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABC79C521C9AC0CC00ACC4DB /* wav.mm */; };
+		ABC79C601C9AC0CC00ACC4DB /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC79C541C9AC0CC00ACC4DB /* libopencore-amrnb.a */; };
+		ABC79C611C9AC0CC00ACC4DB /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC79C551C9AC0CC00ACC4DB /* libopencore-amrwb.a */; };
+		ABC79C621C9AC0CC00ACC4DB /* VoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABC79C5D1C9AC0CC00ACC4DB /* VoiceConverter.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB323D591C9A9D3400A1C1EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB323D371C9A9D3300A1C1EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB323D3E1C9A9D3300A1C1EE;
+			remoteInfo = RecordButtonDemo;
+		};
+		AB323D641C9A9D3400A1C1EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB323D371C9A9D3300A1C1EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB323D3E1C9A9D3300A1C1EE;
+			remoteInfo = RecordButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB323D3F1C9A9D3300A1C1EE /* RecordButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB323D431C9A9D3400A1C1EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB323D451C9A9D3400A1C1EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB323D461C9A9D3400A1C1EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB323D481C9A9D3400A1C1EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB323D491C9A9D3400A1C1EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB323D4C1C9A9D3400A1C1EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB323D4E1C9A9D3400A1C1EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB323D511C9A9D3400A1C1EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB323D531C9A9D3400A1C1EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB323D581C9A9D3400A1C1EE /* RecordButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB323D5C1C9A9D3400A1C1EE /* RecordButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordButtonDemoTests.m; sourceTree = "<group>"; };
+		AB323D5E1C9A9D3400A1C1EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB323D631C9A9D3400A1C1EE /* RecordButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB323D671C9A9D3400A1C1EE /* RecordButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordButtonDemoUITests.m; sourceTree = "<group>"; };
+		AB323D691C9A9D3400A1C1EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC79C331C9A9F7A00ACC4DB /* RecordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordButton.h; sourceTree = "<group>"; };
+		ABC79C341C9A9F7A00ACC4DB /* RecordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordButton.m; sourceTree = "<group>"; };
+		ABC79C4F1C9AC0CC00ACC4DB /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		ABC79C501C9AC0CC00ACC4DB /* amrFileCodec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = amrFileCodec.mm; sourceTree = "<group>"; };
+		ABC79C511C9AC0CC00ACC4DB /* wav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
+		ABC79C521C9AC0CC00ACC4DB /* wav.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = wav.mm; sourceTree = "<group>"; };
+		ABC79C541C9AC0CC00ACC4DB /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		ABC79C551C9AC0CC00ACC4DB /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		ABC79C571C9AC0CC00ACC4DB /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		ABC79C581C9AC0CC00ACC4DB /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		ABC79C5A1C9AC0CC00ACC4DB /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		ABC79C5B1C9AC0CC00ACC4DB /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		ABC79C5C1C9AC0CC00ACC4DB /* VoiceConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceConverter.h; sourceTree = "<group>"; };
+		ABC79C5D1C9AC0CC00ACC4DB /* VoiceConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VoiceConverter.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB323D3C1C9A9D3300A1C1EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC79C611C9AC0CC00ACC4DB /* libopencore-amrwb.a in Frameworks */,
+				ABC79C601C9AC0CC00ACC4DB /* libopencore-amrnb.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB323D551C9A9D3400A1C1EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB323D601C9A9D3400A1C1EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB323D361C9A9D3300A1C1EE = {
+			isa = PBXGroup;
+			children = (
+				AB323D411C9A9D3400A1C1EE /* RecordButtonDemo */,
+				AB323D5B1C9A9D3400A1C1EE /* RecordButtonDemoTests */,
+				AB323D661C9A9D3400A1C1EE /* RecordButtonDemoUITests */,
+				AB323D401C9A9D3300A1C1EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB323D401C9A9D3300A1C1EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB323D3F1C9A9D3300A1C1EE /* RecordButtonDemo.app */,
+				AB323D581C9A9D3400A1C1EE /* RecordButtonDemoTests.xctest */,
+				AB323D631C9A9D3400A1C1EE /* RecordButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB323D411C9A9D3400A1C1EE /* RecordButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ABC79C321C9A9F4D00ACC4DB /* RecordButton */,
+				AB323D451C9A9D3400A1C1EE /* AppDelegate.h */,
+				AB323D461C9A9D3400A1C1EE /* AppDelegate.m */,
+				AB323D481C9A9D3400A1C1EE /* ViewController.h */,
+				AB323D491C9A9D3400A1C1EE /* ViewController.m */,
+				AB323D4B1C9A9D3400A1C1EE /* Main.storyboard */,
+				AB323D4E1C9A9D3400A1C1EE /* Assets.xcassets */,
+				AB323D501C9A9D3400A1C1EE /* LaunchScreen.storyboard */,
+				AB323D531C9A9D3400A1C1EE /* Info.plist */,
+				AB323D421C9A9D3400A1C1EE /* Supporting Files */,
+			);
+			path = RecordButtonDemo;
+			sourceTree = "<group>";
+		};
+		AB323D421C9A9D3400A1C1EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB323D431C9A9D3400A1C1EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB323D5B1C9A9D3400A1C1EE /* RecordButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB323D5C1C9A9D3400A1C1EE /* RecordButtonDemoTests.m */,
+				AB323D5E1C9A9D3400A1C1EE /* Info.plist */,
+			);
+			path = RecordButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		AB323D661C9A9D3400A1C1EE /* RecordButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB323D671C9A9D3400A1C1EE /* RecordButtonDemoUITests.m */,
+				AB323D691C9A9D3400A1C1EE /* Info.plist */,
+			);
+			path = RecordButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+		ABC79C321C9A9F4D00ACC4DB /* RecordButton */ = {
+			isa = PBXGroup;
+			children = (
+				ABC79C4D1C9AC0CC00ACC4DB /* VoiceConvert */,
+				ABC79C331C9A9F7A00ACC4DB /* RecordButton.h */,
+				ABC79C341C9A9F7A00ACC4DB /* RecordButton.m */,
+			);
+			path = RecordButton;
+			sourceTree = "<group>";
+		};
+		ABC79C4D1C9AC0CC00ACC4DB /* VoiceConvert */ = {
+			isa = PBXGroup;
+			children = (
+				ABC79C4E1C9AC0CC00ACC4DB /* amrwapper */,
+				ABC79C531C9AC0CC00ACC4DB /* lib */,
+				ABC79C561C9AC0CC00ACC4DB /* opencore-amrnb */,
+				ABC79C591C9AC0CC00ACC4DB /* opencore-amrwb */,
+				ABC79C5C1C9AC0CC00ACC4DB /* VoiceConverter.h */,
+				ABC79C5D1C9AC0CC00ACC4DB /* VoiceConverter.mm */,
+			);
+			path = VoiceConvert;
+			sourceTree = "<group>";
+		};
+		ABC79C4E1C9AC0CC00ACC4DB /* amrwapper */ = {
+			isa = PBXGroup;
+			children = (
+				ABC79C4F1C9AC0CC00ACC4DB /* amrFileCodec.h */,
+				ABC79C501C9AC0CC00ACC4DB /* amrFileCodec.mm */,
+				ABC79C511C9AC0CC00ACC4DB /* wav.h */,
+				ABC79C521C9AC0CC00ACC4DB /* wav.mm */,
+			);
+			path = amrwapper;
+			sourceTree = "<group>";
+		};
+		ABC79C531C9AC0CC00ACC4DB /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				ABC79C541C9AC0CC00ACC4DB /* libopencore-amrnb.a */,
+				ABC79C551C9AC0CC00ACC4DB /* libopencore-amrwb.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		ABC79C561C9AC0CC00ACC4DB /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				ABC79C571C9AC0CC00ACC4DB /* interf_dec.h */,
+				ABC79C581C9AC0CC00ACC4DB /* interf_enc.h */,
+			);
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		ABC79C591C9AC0CC00ACC4DB /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				ABC79C5A1C9AC0CC00ACC4DB /* dec_if.h */,
+				ABC79C5B1C9AC0CC00ACC4DB /* if_rom.h */,
+			);
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB323D3E1C9A9D3300A1C1EE /* RecordButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB323D6C1C9A9D3400A1C1EE /* Build configuration list for PBXNativeTarget "RecordButtonDemo" */;
+			buildPhases = (
+				AB323D3B1C9A9D3300A1C1EE /* Sources */,
+				AB323D3C1C9A9D3300A1C1EE /* Frameworks */,
+				AB323D3D1C9A9D3300A1C1EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecordButtonDemo;
+			productName = RecordButtonDemo;
+			productReference = AB323D3F1C9A9D3300A1C1EE /* RecordButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB323D571C9A9D3400A1C1EE /* RecordButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB323D6F1C9A9D3400A1C1EE /* Build configuration list for PBXNativeTarget "RecordButtonDemoTests" */;
+			buildPhases = (
+				AB323D541C9A9D3400A1C1EE /* Sources */,
+				AB323D551C9A9D3400A1C1EE /* Frameworks */,
+				AB323D561C9A9D3400A1C1EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB323D5A1C9A9D3400A1C1EE /* PBXTargetDependency */,
+			);
+			name = RecordButtonDemoTests;
+			productName = RecordButtonDemoTests;
+			productReference = AB323D581C9A9D3400A1C1EE /* RecordButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB323D621C9A9D3400A1C1EE /* RecordButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB323D721C9A9D3400A1C1EE /* Build configuration list for PBXNativeTarget "RecordButtonDemoUITests" */;
+			buildPhases = (
+				AB323D5F1C9A9D3400A1C1EE /* Sources */,
+				AB323D601C9A9D3400A1C1EE /* Frameworks */,
+				AB323D611C9A9D3400A1C1EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB323D651C9A9D3400A1C1EE /* PBXTargetDependency */,
+			);
+			name = RecordButtonDemoUITests;
+			productName = RecordButtonDemoUITests;
+			productReference = AB323D631C9A9D3400A1C1EE /* RecordButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB323D371C9A9D3300A1C1EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Meng;
+				TargetAttributes = {
+					AB323D3E1C9A9D3300A1C1EE = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					AB323D571C9A9D3400A1C1EE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = AB323D3E1C9A9D3300A1C1EE;
+					};
+					AB323D621C9A9D3400A1C1EE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = AB323D3E1C9A9D3300A1C1EE;
+					};
+				};
+			};
+			buildConfigurationList = AB323D3A1C9A9D3300A1C1EE /* Build configuration list for PBXProject "RecordButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB323D361C9A9D3300A1C1EE;
+			productRefGroup = AB323D401C9A9D3300A1C1EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB323D3E1C9A9D3300A1C1EE /* RecordButtonDemo */,
+				AB323D571C9A9D3400A1C1EE /* RecordButtonDemoTests */,
+				AB323D621C9A9D3400A1C1EE /* RecordButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB323D3D1C9A9D3300A1C1EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB323D521C9A9D3400A1C1EE /* LaunchScreen.storyboard in Resources */,
+				AB323D4F1C9A9D3400A1C1EE /* Assets.xcassets in Resources */,
+				AB323D4D1C9A9D3400A1C1EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB323D561C9A9D3400A1C1EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB323D611C9A9D3400A1C1EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB323D3B1C9A9D3300A1C1EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC79C351C9A9F7A00ACC4DB /* RecordButton.m in Sources */,
+				AB323D4A1C9A9D3400A1C1EE /* ViewController.m in Sources */,
+				AB323D471C9A9D3400A1C1EE /* AppDelegate.m in Sources */,
+				AB323D441C9A9D3400A1C1EE /* main.m in Sources */,
+				ABC79C5F1C9AC0CC00ACC4DB /* wav.mm in Sources */,
+				ABC79C5E1C9AC0CC00ACC4DB /* amrFileCodec.mm in Sources */,
+				ABC79C621C9AC0CC00ACC4DB /* VoiceConverter.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB323D541C9A9D3400A1C1EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB323D5D1C9A9D3400A1C1EE /* RecordButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB323D5F1C9A9D3400A1C1EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB323D681C9A9D3400A1C1EE /* RecordButtonDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB323D5A1C9A9D3400A1C1EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB323D3E1C9A9D3300A1C1EE /* RecordButtonDemo */;
+			targetProxy = AB323D591C9A9D3400A1C1EE /* PBXContainerItemProxy */;
+		};
+		AB323D651C9A9D3400A1C1EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB323D3E1C9A9D3300A1C1EE /* RecordButtonDemo */;
+			targetProxy = AB323D641C9A9D3400A1C1EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB323D4B1C9A9D3400A1C1EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB323D4C1C9A9D3400A1C1EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB323D501C9A9D3400A1C1EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB323D511C9A9D3400A1C1EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB323D6A1C9A9D3400A1C1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB323D6B1C9A9D3400A1C1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB323D6D1C9A9D3400A1C1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RecordButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RecordButtonDemo/VoiceConvert/lib",
+					"$(PROJECT_DIR)/RecordButtonDemo/RecordButton/VoiceConvert/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.RecordButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB323D6E1C9A9D3400A1C1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RecordButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RecordButtonDemo/VoiceConvert/lib",
+					"$(PROJECT_DIR)/RecordButtonDemo/RecordButton/VoiceConvert/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.RecordButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB323D701C9A9D3400A1C1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RecordButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.RecordButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordButtonDemo.app/RecordButtonDemo";
+			};
+			name = Debug;
+		};
+		AB323D711C9A9D3400A1C1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RecordButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.RecordButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordButtonDemo.app/RecordButtonDemo";
+			};
+			name = Release;
+		};
+		AB323D731C9A9D3400A1C1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RecordButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.RecordButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RecordButtonDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AB323D741C9A9D3400A1C1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RecordButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.RecordButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RecordButtonDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB323D3A1C9A9D3300A1C1EE /* Build configuration list for PBXProject "RecordButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB323D6A1C9A9D3400A1C1EE /* Debug */,
+				AB323D6B1C9A9D3400A1C1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB323D6C1C9A9D3400A1C1EE /* Build configuration list for PBXNativeTarget "RecordButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB323D6D1C9A9D3400A1C1EE /* Debug */,
+				AB323D6E1C9A9D3400A1C1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB323D6F1C9A9D3400A1C1EE /* Build configuration list for PBXNativeTarget "RecordButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB323D701C9A9D3400A1C1EE /* Debug */,
+				AB323D711C9A9D3400A1C1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB323D721C9A9D3400A1C1EE /* Build configuration list for PBXNativeTarget "RecordButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB323D731C9A9D3400A1C1EE /* Debug */,
+				AB323D741C9A9D3400A1C1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB323D371C9A9D3300A1C1EE /* Project object */;
+}

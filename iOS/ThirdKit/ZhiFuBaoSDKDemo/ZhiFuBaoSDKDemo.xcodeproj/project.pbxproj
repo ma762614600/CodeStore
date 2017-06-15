@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB882F9B1C2D3DAE0012D155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB882F9A1C2D3DAE0012D155 /* main.m */; };
+		AB882F9E1C2D3DAE0012D155 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB882F9D1C2D3DAE0012D155 /* AppDelegate.m */; };
+		AB882FA11C2D3DAE0012D155 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB882FA01C2D3DAE0012D155 /* ViewController.m */; };
+		AB882FA41C2D3DAE0012D155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB882FA21C2D3DAE0012D155 /* Main.storyboard */; };
+		AB882FA61C2D3DAE0012D155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB882FA51C2D3DAE0012D155 /* Assets.xcassets */; };
+		AB882FA91C2D3DAE0012D155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB882FA71C2D3DAE0012D155 /* LaunchScreen.storyboard */; };
+		AB882FB41C2D3DAE0012D155 /* ZhiFuBaoSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB882FB31C2D3DAE0012D155 /* ZhiFuBaoSDKDemoTests.m */; };
+		AB882FBF1C2D3DAE0012D155 /* ZhiFuBaoSDKDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB882FBE1C2D3DAE0012D155 /* ZhiFuBaoSDKDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB882FB01C2D3DAE0012D155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB882F8E1C2D3DAE0012D155 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB882F951C2D3DAE0012D155;
+			remoteInfo = ZhiFuBaoSDKDemo;
+		};
+		AB882FBB1C2D3DAE0012D155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB882F8E1C2D3DAE0012D155 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB882F951C2D3DAE0012D155;
+			remoteInfo = ZhiFuBaoSDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB882F961C2D3DAE0012D155 /* 支付宝支付SDK测试Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "支付宝支付SDK测试Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB882F9A1C2D3DAE0012D155 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB882F9C1C2D3DAE0012D155 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB882F9D1C2D3DAE0012D155 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB882F9F1C2D3DAE0012D155 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB882FA01C2D3DAE0012D155 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB882FA31C2D3DAE0012D155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB882FA51C2D3DAE0012D155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB882FA81C2D3DAE0012D155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB882FAA1C2D3DAE0012D155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB882FAF1C2D3DAE0012D155 /* ZhiFuBaoSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhiFuBaoSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB882FB31C2D3DAE0012D155 /* ZhiFuBaoSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhiFuBaoSDKDemoTests.m; sourceTree = "<group>"; };
+		AB882FB51C2D3DAE0012D155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB882FBA1C2D3DAE0012D155 /* ZhiFuBaoSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhiFuBaoSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB882FBE1C2D3DAE0012D155 /* ZhiFuBaoSDKDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhiFuBaoSDKDemoUITests.m; sourceTree = "<group>"; };
+		AB882FC01C2D3DAE0012D155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB882F931C2D3DAE0012D155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB882FAC1C2D3DAE0012D155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB882FB71C2D3DAE0012D155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB882F8D1C2D3DAE0012D155 = {
+			isa = PBXGroup;
+			children = (
+				AB882F981C2D3DAE0012D155 /* ZhiFuBaoSDKDemo */,
+				AB882FB21C2D3DAE0012D155 /* ZhiFuBaoSDKDemoTests */,
+				AB882FBD1C2D3DAE0012D155 /* ZhiFuBaoSDKDemoUITests */,
+				AB882F971C2D3DAE0012D155 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB882F971C2D3DAE0012D155 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB882F961C2D3DAE0012D155 /* 支付宝支付SDK测试Demo.app */,
+				AB882FAF1C2D3DAE0012D155 /* ZhiFuBaoSDKDemoTests.xctest */,
+				AB882FBA1C2D3DAE0012D155 /* ZhiFuBaoSDKDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB882F981C2D3DAE0012D155 /* ZhiFuBaoSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AB882F9C1C2D3DAE0012D155 /* AppDelegate.h */,
+				AB882F9D1C2D3DAE0012D155 /* AppDelegate.m */,
+				AB882F9F1C2D3DAE0012D155 /* ViewController.h */,
+				AB882FA01C2D3DAE0012D155 /* ViewController.m */,
+				AB882FA21C2D3DAE0012D155 /* Main.storyboard */,
+				AB882FA51C2D3DAE0012D155 /* Assets.xcassets */,
+				AB882FA71C2D3DAE0012D155 /* LaunchScreen.storyboard */,
+				AB882FAA1C2D3DAE0012D155 /* Info.plist */,
+				AB882F991C2D3DAE0012D155 /* Supporting Files */,
+			);
+			path = ZhiFuBaoSDKDemo;
+			sourceTree = "<group>";
+		};
+		AB882F991C2D3DAE0012D155 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB882F9A1C2D3DAE0012D155 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB882FB21C2D3DAE0012D155 /* ZhiFuBaoSDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB882FB31C2D3DAE0012D155 /* ZhiFuBaoSDKDemoTests.m */,
+				AB882FB51C2D3DAE0012D155 /* Info.plist */,
+			);
+			path = ZhiFuBaoSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		AB882FBD1C2D3DAE0012D155 /* ZhiFuBaoSDKDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB882FBE1C2D3DAE0012D155 /* ZhiFuBaoSDKDemoUITests.m */,
+				AB882FC01C2D3DAE0012D155 /* Info.plist */,
+			);
+			path = ZhiFuBaoSDKDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB882F951C2D3DAE0012D155 /* ZhiFuBaoSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB882FC31C2D3DAE0012D155 /* Build configuration list for PBXNativeTarget "ZhiFuBaoSDKDemo" */;
+			buildPhases = (
+				AB882F921C2D3DAE0012D155 /* Sources */,
+				AB882F931C2D3DAE0012D155 /* Frameworks */,
+				AB882F941C2D3DAE0012D155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZhiFuBaoSDKDemo;
+			productName = ZhiFuBaoSDKDemo;
+			productReference = AB882F961C2D3DAE0012D155 /* 支付宝支付SDK测试Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB882FAE1C2D3DAE0012D155 /* ZhiFuBaoSDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB882FC61C2D3DAE0012D155 /* Build configuration list for PBXNativeTarget "ZhiFuBaoSDKDemoTests" */;
+			buildPhases = (
+				AB882FAB1C2D3DAE0012D155 /* Sources */,
+				AB882FAC1C2D3DAE0012D155 /* Frameworks */,
+				AB882FAD1C2D3DAE0012D155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB882FB11C2D3DAE0012D155 /* PBXTargetDependency */,
+			);
+			name = ZhiFuBaoSDKDemoTests;
+			productName = ZhiFuBaoSDKDemoTests;
+			productReference = AB882FAF1C2D3DAE0012D155 /* ZhiFuBaoSDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB882FB91C2D3DAE0012D155 /* ZhiFuBaoSDKDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB882FC91C2D3DAE0012D155 /* Build configuration list for PBXNativeTarget "ZhiFuBaoSDKDemoUITests" */;
+			buildPhases = (
+				AB882FB61C2D3DAE0012D155 /* Sources */,
+				AB882FB71C2D3DAE0012D155 /* Frameworks */,
+				AB882FB81C2D3DAE0012D155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB882FBC1C2D3DAE0012D155 /* PBXTargetDependency */,
+			);
+			name = ZhiFuBaoSDKDemoUITests;
+			productName = ZhiFuBaoSDKDemoUITests;
+			productReference = AB882FBA1C2D3DAE0012D155 /* ZhiFuBaoSDKDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB882F8E1C2D3DAE0012D155 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Meng;
+				TargetAttributes = {
+					AB882F951C2D3DAE0012D155 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AB882FAE1C2D3DAE0012D155 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AB882F951C2D3DAE0012D155;
+					};
+					AB882FB91C2D3DAE0012D155 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AB882F951C2D3DAE0012D155;
+					};
+				};
+			};
+			buildConfigurationList = AB882F911C2D3DAE0012D155 /* Build configuration list for PBXProject "ZhiFuBaoSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB882F8D1C2D3DAE0012D155;
+			productRefGroup = AB882F971C2D3DAE0012D155 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB882F951C2D3DAE0012D155 /* ZhiFuBaoSDKDemo */,
+				AB882FAE1C2D3DAE0012D155 /* ZhiFuBaoSDKDemoTests */,
+				AB882FB91C2D3DAE0012D155 /* ZhiFuBaoSDKDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB882F941C2D3DAE0012D155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB882FA91C2D3DAE0012D155 /* LaunchScreen.storyboard in Resources */,
+				AB882FA61C2D3DAE0012D155 /* Assets.xcassets in Resources */,
+				AB882FA41C2D3DAE0012D155 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB882FAD1C2D3DAE0012D155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB882FB81C2D3DAE0012D155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB882F921C2D3DAE0012D155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB882FA11C2D3DAE0012D155 /* ViewController.m in Sources */,
+				AB882F9E1C2D3DAE0012D155 /* AppDelegate.m in Sources */,
+				AB882F9B1C2D3DAE0012D155 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB882FAB1C2D3DAE0012D155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB882FB41C2D3DAE0012D155 /* ZhiFuBaoSDKDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB882FB61C2D3DAE0012D155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB882FBF1C2D3DAE0012D155 /* ZhiFuBaoSDKDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB882FB11C2D3DAE0012D155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB882F951C2D3DAE0012D155 /* ZhiFuBaoSDKDemo */;
+			targetProxy = AB882FB01C2D3DAE0012D155 /* PBXContainerItemProxy */;
+		};
+		AB882FBC1C2D3DAE0012D155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB882F951C2D3DAE0012D155 /* ZhiFuBaoSDKDemo */;
+			targetProxy = AB882FBB1C2D3DAE0012D155 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB882FA21C2D3DAE0012D155 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB882FA31C2D3DAE0012D155 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB882FA71C2D3DAE0012D155 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB882FA81C2D3DAE0012D155 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB882FC11C2D3DAE0012D155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB882FC21C2D3DAE0012D155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB882FC41C2D3DAE0012D155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZhiFuBaoSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.ZhiFuBaoSDKDemo;
+				PRODUCT_NAME = "支付宝支付SDK测试Demo";
+			};
+			name = Debug;
+		};
+		AB882FC51C2D3DAE0012D155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZhiFuBaoSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.ZhiFuBaoSDKDemo;
+				PRODUCT_NAME = "支付宝支付SDK测试Demo";
+			};
+			name = Release;
+		};
+		AB882FC71C2D3DAE0012D155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZhiFuBaoSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.ZhiFuBaoSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZhiFuBaoSDKDemo.app/ZhiFuBaoSDKDemo";
+			};
+			name = Debug;
+		};
+		AB882FC81C2D3DAE0012D155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZhiFuBaoSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.ZhiFuBaoSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZhiFuBaoSDKDemo.app/ZhiFuBaoSDKDemo";
+			};
+			name = Release;
+		};
+		AB882FCA1C2D3DAE0012D155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZhiFuBaoSDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.ZhiFuBaoSDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZhiFuBaoSDKDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AB882FCB1C2D3DAE0012D155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZhiFuBaoSDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.ZhiFuBaoSDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZhiFuBaoSDKDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB882F911C2D3DAE0012D155 /* Build configuration list for PBXProject "ZhiFuBaoSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB882FC11C2D3DAE0012D155 /* Debug */,
+				AB882FC21C2D3DAE0012D155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB882FC31C2D3DAE0012D155 /* Build configuration list for PBXNativeTarget "ZhiFuBaoSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB882FC41C2D3DAE0012D155 /* Debug */,
+				AB882FC51C2D3DAE0012D155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB882FC61C2D3DAE0012D155 /* Build configuration list for PBXNativeTarget "ZhiFuBaoSDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB882FC71C2D3DAE0012D155 /* Debug */,
+				AB882FC81C2D3DAE0012D155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB882FC91C2D3DAE0012D155 /* Build configuration list for PBXNativeTarget "ZhiFuBaoSDKDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB882FCA1C2D3DAE0012D155 /* Debug */,
+				AB882FCB1C2D3DAE0012D155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB882F8E1C2D3DAE0012D155 /* Project object */;
+}

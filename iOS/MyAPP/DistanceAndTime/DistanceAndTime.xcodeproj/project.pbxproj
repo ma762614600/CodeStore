@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22A2C87DE0EE8BF3DCA101F3 /* libPods-DistanceAndTimeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A7E8ECFB7FC43655447D38 /* libPods-DistanceAndTimeTests.a */; };
+		6B93A48CA924C4DD5C93AC7D /* libPods-DistanceAndTimeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30705CCF687F7217B7B54F57 /* libPods-DistanceAndTimeUITests.a */; };
+		AB5AD6691D9C080D0070713F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5AD6681D9C080D0070713F /* main.m */; };
+		AB5AD66C1D9C080D0070713F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5AD66B1D9C080D0070713F /* AppDelegate.m */; };
+		AB5AD66F1D9C080D0070713F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5AD66E1D9C080D0070713F /* RootViewController.m */; };
+		AB5AD6741D9C080D0070713F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5AD6731D9C080D0070713F /* Assets.xcassets */; };
+		AB5AD6771D9C080D0070713F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5AD6751D9C080D0070713F /* LaunchScreen.storyboard */; };
+		AB5AD6821D9C080D0070713F /* DistanceAndTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5AD6811D9C080D0070713F /* DistanceAndTimeTests.m */; };
+		AB5AD68D1D9C080D0070713F /* DistanceAndTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5AD68C1D9C080D0070713F /* DistanceAndTimeUITests.m */; };
+		AB723542179E8C72BD46D6F7 /* libPods-DistanceAndTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8713AA05E6C4CFF1525A89F3 /* libPods-DistanceAndTime.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB5AD67E1D9C080D0070713F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB5AD65C1D9C080D0070713F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5AD6631D9C080D0070713F;
+			remoteInfo = DistanceAndTime;
+		};
+		AB5AD6891D9C080D0070713F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB5AD65C1D9C080D0070713F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5AD6631D9C080D0070713F;
+			remoteInfo = DistanceAndTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F2C1AD45F2AFEE5B33EA3FF /* Pods-DistanceAndTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistanceAndTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-DistanceAndTime/Pods-DistanceAndTime.release.xcconfig"; sourceTree = "<group>"; };
+		30705CCF687F7217B7B54F57 /* libPods-DistanceAndTimeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DistanceAndTimeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5290D89CEDC3CFA5AB9741D1 /* Pods-DistanceAndTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistanceAndTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DistanceAndTime/Pods-DistanceAndTime.debug.xcconfig"; sourceTree = "<group>"; };
+		5FBE4D9B20E2792698C6AF8E /* Pods-DistanceAndTimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistanceAndTimeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DistanceAndTimeUITests/Pods-DistanceAndTimeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8713AA05E6C4CFF1525A89F3 /* libPods-DistanceAndTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DistanceAndTime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBFDB41B4679CA26B5E4705 /* Pods-DistanceAndTimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistanceAndTimeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DistanceAndTimeTests/Pods-DistanceAndTimeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB5AD6641D9C080D0070713F /* DistanceAndTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DistanceAndTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5AD6681D9C080D0070713F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB5AD66A1D9C080D0070713F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB5AD66B1D9C080D0070713F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB5AD66D1D9C080D0070713F /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		AB5AD66E1D9C080D0070713F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		AB5AD6731D9C080D0070713F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB5AD6761D9C080D0070713F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB5AD6781D9C080D0070713F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB5AD67D1D9C080D0070713F /* DistanceAndTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DistanceAndTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5AD6811D9C080D0070713F /* DistanceAndTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistanceAndTimeTests.m; sourceTree = "<group>"; };
+		AB5AD6831D9C080D0070713F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB5AD6881D9C080D0070713F /* DistanceAndTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DistanceAndTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5AD68C1D9C080D0070713F /* DistanceAndTimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistanceAndTimeUITests.m; sourceTree = "<group>"; };
+		AB5AD68E1D9C080D0070713F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B52DDD39CB9BE700E90784B7 /* Pods-DistanceAndTimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistanceAndTimeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DistanceAndTimeTests/Pods-DistanceAndTimeTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6A7E8ECFB7FC43655447D38 /* libPods-DistanceAndTimeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DistanceAndTimeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E845CDE455B3A2067CAEEB38 /* Pods-DistanceAndTimeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistanceAndTimeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DistanceAndTimeUITests/Pods-DistanceAndTimeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB5AD6611D9C080D0070713F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB723542179E8C72BD46D6F7 /* libPods-DistanceAndTime.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5AD67A1D9C080D0070713F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A2C87DE0EE8BF3DCA101F3 /* libPods-DistanceAndTimeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5AD6851D9C080D0070713F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B93A48CA924C4DD5C93AC7D /* libPods-DistanceAndTimeUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB5AD65B1D9C080D0070713F = {
+			isa = PBXGroup;
+			children = (
+				AB5AD6661D9C080D0070713F /* DistanceAndTime */,
+				AB5AD6801D9C080D0070713F /* DistanceAndTimeTests */,
+				AB5AD68B1D9C080D0070713F /* DistanceAndTimeUITests */,
+				AB5AD6651D9C080D0070713F /* Products */,
+				C0A95772FD1D3A0FB28502E4 /* Pods */,
+				C6AD0FC4A1ECBE80697DE658 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB5AD6651D9C080D0070713F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB5AD6641D9C080D0070713F /* DistanceAndTime.app */,
+				AB5AD67D1D9C080D0070713F /* DistanceAndTimeTests.xctest */,
+				AB5AD6881D9C080D0070713F /* DistanceAndTimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB5AD6661D9C080D0070713F /* DistanceAndTime */ = {
+			isa = PBXGroup;
+			children = (
+				AB5AD66A1D9C080D0070713F /* AppDelegate.h */,
+				AB5AD66B1D9C080D0070713F /* AppDelegate.m */,
+				AB5AD66D1D9C080D0070713F /* RootViewController.h */,
+				AB5AD66E1D9C080D0070713F /* RootViewController.m */,
+				AB5AD6731D9C080D0070713F /* Assets.xcassets */,
+				AB5AD6751D9C080D0070713F /* LaunchScreen.storyboard */,
+				AB5AD6781D9C080D0070713F /* Info.plist */,
+				AB5AD6671D9C080D0070713F /* Supporting Files */,
+			);
+			path = DistanceAndTime;
+			sourceTree = "<group>";
+		};
+		AB5AD6671D9C080D0070713F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB5AD6681D9C080D0070713F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB5AD6801D9C080D0070713F /* DistanceAndTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB5AD6811D9C080D0070713F /* DistanceAndTimeTests.m */,
+				AB5AD6831D9C080D0070713F /* Info.plist */,
+			);
+			path = DistanceAndTimeTests;
+			sourceTree = "<group>";
+		};
+		AB5AD68B1D9C080D0070713F /* DistanceAndTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB5AD68C1D9C080D0070713F /* DistanceAndTimeUITests.m */,
+				AB5AD68E1D9C080D0070713F /* Info.plist */,
+			);
+			path = DistanceAndTimeUITests;
+			sourceTree = "<group>";
+		};
+		C0A95772FD1D3A0FB28502E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5290D89CEDC3CFA5AB9741D1 /* Pods-DistanceAndTime.debug.xcconfig */,
+				2F2C1AD45F2AFEE5B33EA3FF /* Pods-DistanceAndTime.release.xcconfig */,
+				8FBFDB41B4679CA26B5E4705 /* Pods-DistanceAndTimeTests.debug.xcconfig */,
+				B52DDD39CB9BE700E90784B7 /* Pods-DistanceAndTimeTests.release.xcconfig */,
+				E845CDE455B3A2067CAEEB38 /* Pods-DistanceAndTimeUITests.debug.xcconfig */,
+				5FBE4D9B20E2792698C6AF8E /* Pods-DistanceAndTimeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6AD0FC4A1ECBE80697DE658 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8713AA05E6C4CFF1525A89F3 /* libPods-DistanceAndTime.a */,
+				B6A7E8ECFB7FC43655447D38 /* libPods-DistanceAndTimeTests.a */,
+				30705CCF687F7217B7B54F57 /* libPods-DistanceAndTimeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB5AD6631D9C080D0070713F /* DistanceAndTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5AD6911D9C080D0070713F /* Build configuration list for PBXNativeTarget "DistanceAndTime" */;
+			buildPhases = (
+				B5893C83B855D3A3780DFE50 /* [CP] Check Pods Manifest.lock */,
+				AB5AD6601D9C080D0070713F /* Sources */,
+				AB5AD6611D9C080D0070713F /* Frameworks */,
+				AB5AD6621D9C080D0070713F /* Resources */,
+				6E4D70594B635944485D3E52 /* [CP] Embed Pods Frameworks */,
+				C8EEE04A269D4F8FDA065DF5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DistanceAndTime;
+			productName = DistanceAndTime;
+			productReference = AB5AD6641D9C080D0070713F /* DistanceAndTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB5AD67C1D9C080D0070713F /* DistanceAndTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5AD6941D9C080D0070713F /* Build configuration list for PBXNativeTarget "DistanceAndTimeTests" */;
+			buildPhases = (
+				9A0BFE8504C8878C9A40AE35 /* [CP] Check Pods Manifest.lock */,
+				AB5AD6791D9C080D0070713F /* Sources */,
+				AB5AD67A1D9C080D0070713F /* Frameworks */,
+				AB5AD67B1D9C080D0070713F /* Resources */,
+				B42FF7955EFFDDADD4216E22 /* [CP] Embed Pods Frameworks */,
+				2B82A8329DFEE6816A136E2D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB5AD67F1D9C080D0070713F /* PBXTargetDependency */,
+			);
+			name = DistanceAndTimeTests;
+			productName = DistanceAndTimeTests;
+			productReference = AB5AD67D1D9C080D0070713F /* DistanceAndTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB5AD6871D9C080D0070713F /* DistanceAndTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5AD6971D9C080D0070713F /* Build configuration list for PBXNativeTarget "DistanceAndTimeUITests" */;
+			buildPhases = (
+				6E1821A3212B717A04A4E647 /* [CP] Check Pods Manifest.lock */,
+				AB5AD6841D9C080D0070713F /* Sources */,
+				AB5AD6851D9C080D0070713F /* Frameworks */,
+				AB5AD6861D9C080D0070713F /* Resources */,
+				4915F0863270FAA7C75E1E3B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB5AD68A1D9C080D0070713F /* PBXTargetDependency */,
+			);
+			name = DistanceAndTimeUITests;
+			productName = DistanceAndTimeUITests;
+			productReference = AB5AD6881D9C080D0070713F /* DistanceAndTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB5AD65C1D9C080D0070713F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Meng;
+				TargetAttributes = {
+					AB5AD6631D9C080D0070713F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = E29Y9Z5PCY;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					AB5AD67C1D9C080D0070713F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = E29Y9Z5PCY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB5AD6631D9C080D0070713F;
+					};
+					AB5AD6871D9C080D0070713F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = E29Y9Z5PCY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB5AD6631D9C080D0070713F;
+					};
+				};
+			};
+			buildConfigurationList = AB5AD65F1D9C080D0070713F /* Build configuration list for PBXProject "DistanceAndTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB5AD65B1D9C080D0070713F;
+			productRefGroup = AB5AD6651D9C080D0070713F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB5AD6631D9C080D0070713F /* DistanceAndTime */,
+				AB5AD67C1D9C080D0070713F /* DistanceAndTimeTests */,
+				AB5AD6871D9C080D0070713F /* DistanceAndTimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB5AD6621D9C080D0070713F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5AD6771D9C080D0070713F /* LaunchScreen.storyboard in Resources */,
+				AB5AD6741D9C080D0070713F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5AD67B1D9C080D0070713F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5AD6861D9C080D0070713F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B82A8329DFEE6816A136E2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DistanceAndTimeTests/Pods-DistanceAndTimeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4915F0863270FAA7C75E1E3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DistanceAndTimeUITests/Pods-DistanceAndTimeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E1821A3212B717A04A4E647 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E4D70594B635944485D3E52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DistanceAndTime/Pods-DistanceAndTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A0BFE8504C8878C9A40AE35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B42FF7955EFFDDADD4216E22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DistanceAndTimeTests/Pods-DistanceAndTimeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5893C83B855D3A3780DFE50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8EEE04A269D4F8FDA065DF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DistanceAndTime/Pods-DistanceAndTime-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB5AD6601D9C080D0070713F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5AD66F1D9C080D0070713F /* RootViewController.m in Sources */,
+				AB5AD66C1D9C080D0070713F /* AppDelegate.m in Sources */,
+				AB5AD6691D9C080D0070713F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5AD6791D9C080D0070713F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5AD6821D9C080D0070713F /* DistanceAndTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5AD6841D9C080D0070713F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5AD68D1D9C080D0070713F /* DistanceAndTimeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB5AD67F1D9C080D0070713F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB5AD6631D9C080D0070713F /* DistanceAndTime */;
+			targetProxy = AB5AD67E1D9C080D0070713F /* PBXContainerItemProxy */;
+		};
+		AB5AD68A1D9C080D0070713F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB5AD6631D9C080D0070713F /* DistanceAndTime */;
+			targetProxy = AB5AD6891D9C080D0070713F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB5AD6751D9C080D0070713F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB5AD6761D9C080D0070713F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB5AD68F1D9C080D0070713F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB5AD6901D9C080D0070713F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB5AD6921D9C080D0070713F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5290D89CEDC3CFA5AB9741D1 /* Pods-DistanceAndTime.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = E29Y9Z5PCY;
+				INFOPLIST_FILE = DistanceAndTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.DistanceAndTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB5AD6931D9C080D0070713F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F2C1AD45F2AFEE5B33EA3FF /* Pods-DistanceAndTime.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = E29Y9Z5PCY;
+				INFOPLIST_FILE = DistanceAndTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.DistanceAndTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB5AD6951D9C080D0070713F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FBFDB41B4679CA26B5E4705 /* Pods-DistanceAndTimeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E29Y9Z5PCY;
+				INFOPLIST_FILE = DistanceAndTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.DistanceAndTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DistanceAndTime.app/DistanceAndTime";
+			};
+			name = Debug;
+		};
+		AB5AD6961D9C080D0070713F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B52DDD39CB9BE700E90784B7 /* Pods-DistanceAndTimeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E29Y9Z5PCY;
+				INFOPLIST_FILE = DistanceAndTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.DistanceAndTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DistanceAndTime.app/DistanceAndTime";
+			};
+			name = Release;
+		};
+		AB5AD6981D9C080D0070713F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E845CDE455B3A2067CAEEB38 /* Pods-DistanceAndTimeUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = E29Y9Z5PCY;
+				INFOPLIST_FILE = DistanceAndTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.DistanceAndTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DistanceAndTime;
+			};
+			name = Debug;
+		};
+		AB5AD6991D9C080D0070713F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FBE4D9B20E2792698C6AF8E /* Pods-DistanceAndTimeUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = E29Y9Z5PCY;
+				INFOPLIST_FILE = DistanceAndTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.DistanceAndTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DistanceAndTime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB5AD65F1D9C080D0070713F /* Build configuration list for PBXProject "DistanceAndTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5AD68F1D9C080D0070713F /* Debug */,
+				AB5AD6901D9C080D0070713F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5AD6911D9C080D0070713F /* Build configuration list for PBXNativeTarget "DistanceAndTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5AD6921D9C080D0070713F /* Debug */,
+				AB5AD6931D9C080D0070713F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5AD6941D9C080D0070713F /* Build configuration list for PBXNativeTarget "DistanceAndTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5AD6951D9C080D0070713F /* Debug */,
+				AB5AD6961D9C080D0070713F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5AD6971D9C080D0070713F /* Build configuration list for PBXNativeTarget "DistanceAndTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5AD6981D9C080D0070713F /* Debug */,
+				AB5AD6991D9C080D0070713F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB5AD65C1D9C080D0070713F /* Project object */;
+}

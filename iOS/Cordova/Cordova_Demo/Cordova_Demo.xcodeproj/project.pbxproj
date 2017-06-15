@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB603F1C1BE70F7F008DE82F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB603F1B1BE70F7F008DE82F /* main.m */; };
+		AB603F1F1BE70F7F008DE82F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB603F1E1BE70F7F008DE82F /* AppDelegate.m */; };
+		AB603F221BE70F7F008DE82F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB603F211BE70F7F008DE82F /* ViewController.m */; };
+		AB603F251BE70F7F008DE82F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB603F231BE70F7F008DE82F /* Main.storyboard */; };
+		AB603F271BE70F7F008DE82F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB603F261BE70F7F008DE82F /* Assets.xcassets */; };
+		AB603F2A1BE70F7F008DE82F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB603F281BE70F7F008DE82F /* LaunchScreen.storyboard */; };
+		AB603F351BE70F80008DE82F /* Cordova_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB603F341BE70F80008DE82F /* Cordova_DemoTests.m */; };
+		AB603F401BE70F80008DE82F /* Cordova_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB603F3F1BE70F80008DE82F /* Cordova_DemoUITests.m */; };
+		AB603F5B1BE711CF008DE82F /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = AB603F5A1BE711CF008DE82F /* config.xml */; };
+		AB603F5F1BE71485008DE82F /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB603F581BE710C5008DE82F /* libCordova.a */; };
+		AB603F611BE71496008DE82F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB603F601BE71495008DE82F /* MobileCoreServices.framework */; };
+		AB603F631BE7149E008DE82F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB603F621BE7149E008DE82F /* AssetsLibrary.framework */; };
+		AB603F651BE71511008DE82F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = AB603F641BE71511008DE82F /* index.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB603F311BE70F80008DE82F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB603F0F1BE70F7F008DE82F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB603F161BE70F7F008DE82F;
+			remoteInfo = Cordova_Demo;
+		};
+		AB603F3C1BE70F80008DE82F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB603F0F1BE70F7F008DE82F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB603F161BE70F7F008DE82F;
+			remoteInfo = Cordova_Demo;
+		};
+		AB603F571BE710C5008DE82F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB603F531BE710C4008DE82F /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 68A32D7114102E1C006B237C;
+			remoteInfo = CordovaLib;
+		};
+		AB603F5D1BE71477008DE82F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB603F531BE710C4008DE82F /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB603F171BE70F7F008DE82F /* Cordova_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cordova_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB603F1B1BE70F7F008DE82F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB603F1D1BE70F7F008DE82F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB603F1E1BE70F7F008DE82F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB603F201BE70F7F008DE82F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB603F211BE70F7F008DE82F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB603F241BE70F7F008DE82F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB603F261BE70F7F008DE82F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB603F291BE70F7F008DE82F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB603F2B1BE70F7F008DE82F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB603F301BE70F80008DE82F /* Cordova_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cordova_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB603F341BE70F80008DE82F /* Cordova_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cordova_DemoTests.m; sourceTree = "<group>"; };
+		AB603F361BE70F80008DE82F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB603F3B1BE70F80008DE82F /* Cordova_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cordova_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB603F3F1BE70F80008DE82F /* Cordova_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cordova_DemoUITests.m; sourceTree = "<group>"; };
+		AB603F411BE70F80008DE82F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB603F531BE710C4008DE82F /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		AB603F5A1BE711CF008DE82F /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		AB603F601BE71495008DE82F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		AB603F621BE7149E008DE82F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		AB603F641BE71511008DE82F /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB603F141BE70F7F008DE82F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB603F631BE7149E008DE82F /* AssetsLibrary.framework in Frameworks */,
+				AB603F611BE71496008DE82F /* MobileCoreServices.framework in Frameworks */,
+				AB603F5F1BE71485008DE82F /* libCordova.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB603F2D1BE70F80008DE82F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB603F381BE70F80008DE82F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB603F0E1BE70F7F008DE82F = {
+			isa = PBXGroup;
+			children = (
+				AB603F621BE7149E008DE82F /* AssetsLibrary.framework */,
+				AB603F601BE71495008DE82F /* MobileCoreServices.framework */,
+				AB603F5A1BE711CF008DE82F /* config.xml */,
+				AB603F591BE71121008DE82F /* www */,
+				AB603F531BE710C4008DE82F /* CordovaLib.xcodeproj */,
+				AB603F191BE70F7F008DE82F /* Cordova_Demo */,
+				AB603F331BE70F80008DE82F /* Cordova_DemoTests */,
+				AB603F3E1BE70F80008DE82F /* Cordova_DemoUITests */,
+				AB603F181BE70F7F008DE82F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB603F181BE70F7F008DE82F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB603F171BE70F7F008DE82F /* Cordova_Demo.app */,
+				AB603F301BE70F80008DE82F /* Cordova_DemoTests.xctest */,
+				AB603F3B1BE70F80008DE82F /* Cordova_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB603F191BE70F7F008DE82F /* Cordova_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				AB603F1D1BE70F7F008DE82F /* AppDelegate.h */,
+				AB603F1E1BE70F7F008DE82F /* AppDelegate.m */,
+				AB603F201BE70F7F008DE82F /* ViewController.h */,
+				AB603F211BE70F7F008DE82F /* ViewController.m */,
+				AB603F231BE70F7F008DE82F /* Main.storyboard */,
+				AB603F261BE70F7F008DE82F /* Assets.xcassets */,
+				AB603F281BE70F7F008DE82F /* LaunchScreen.storyboard */,
+				AB603F2B1BE70F7F008DE82F /* Info.plist */,
+				AB603F1A1BE70F7F008DE82F /* Supporting Files */,
+			);
+			path = Cordova_Demo;
+			sourceTree = "<group>";
+		};
+		AB603F1A1BE70F7F008DE82F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB603F1B1BE70F7F008DE82F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB603F331BE70F80008DE82F /* Cordova_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB603F341BE70F80008DE82F /* Cordova_DemoTests.m */,
+				AB603F361BE70F80008DE82F /* Info.plist */,
+			);
+			path = Cordova_DemoTests;
+			sourceTree = "<group>";
+		};
+		AB603F3E1BE70F80008DE82F /* Cordova_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB603F3F1BE70F80008DE82F /* Cordova_DemoUITests.m */,
+				AB603F411BE70F80008DE82F /* Info.plist */,
+			);
+			path = Cordova_DemoUITests;
+			sourceTree = "<group>";
+		};
+		AB603F541BE710C4008DE82F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB603F581BE710C5008DE82F /* libCordova.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB603F591BE71121008DE82F /* www */ = {
+			isa = PBXGroup;
+			children = (
+				AB603F641BE71511008DE82F /* index.html */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB603F161BE70F7F008DE82F /* Cordova_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB603F441BE70F80008DE82F /* Build configuration list for PBXNativeTarget "Cordova_Demo" */;
+			buildPhases = (
+				AB603F131BE70F7F008DE82F /* Sources */,
+				AB603F141BE70F7F008DE82F /* Frameworks */,
+				AB603F151BE70F7F008DE82F /* Resources */,
+				AB603F5C1BE71348008DE82F /* copy www directory */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB603F5E1BE71477008DE82F /* PBXTargetDependency */,
+			);
+			name = Cordova_Demo;
+			productName = Cordova_Demo;
+			productReference = AB603F171BE70F7F008DE82F /* Cordova_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB603F2F1BE70F80008DE82F /* Cordova_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB603F471BE70F80008DE82F /* Build configuration list for PBXNativeTarget "Cordova_DemoTests" */;
+			buildPhases = (
+				AB603F2C1BE70F80008DE82F /* Sources */,
+				AB603F2D1BE70F80008DE82F /* Frameworks */,
+				AB603F2E1BE70F80008DE82F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB603F321BE70F80008DE82F /* PBXTargetDependency */,
+			);
+			name = Cordova_DemoTests;
+			productName = Cordova_DemoTests;
+			productReference = AB603F301BE70F80008DE82F /* Cordova_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB603F3A1BE70F80008DE82F /* Cordova_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB603F4A1BE70F80008DE82F /* Build configuration list for PBXNativeTarget "Cordova_DemoUITests" */;
+			buildPhases = (
+				AB603F371BE70F80008DE82F /* Sources */,
+				AB603F381BE70F80008DE82F /* Frameworks */,
+				AB603F391BE70F80008DE82F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB603F3D1BE70F80008DE82F /* PBXTargetDependency */,
+			);
+			name = Cordova_DemoUITests;
+			productName = Cordova_DemoUITests;
+			productReference = AB603F3B1BE70F80008DE82F /* Cordova_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB603F0F1BE70F7F008DE82F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Meng;
+				TargetAttributes = {
+					AB603F161BE70F7F008DE82F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					AB603F2F1BE70F80008DE82F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = AB603F161BE70F7F008DE82F;
+					};
+					AB603F3A1BE70F80008DE82F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = AB603F161BE70F7F008DE82F;
+					};
+				};
+			};
+			buildConfigurationList = AB603F121BE70F7F008DE82F /* Build configuration list for PBXProject "Cordova_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB603F0E1BE70F7F008DE82F;
+			productRefGroup = AB603F181BE70F7F008DE82F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AB603F541BE710C4008DE82F /* Products */;
+					ProjectRef = AB603F531BE710C4008DE82F /* CordovaLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				AB603F161BE70F7F008DE82F /* Cordova_Demo */,
+				AB603F2F1BE70F80008DE82F /* Cordova_DemoTests */,
+				AB603F3A1BE70F80008DE82F /* Cordova_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AB603F581BE710C5008DE82F /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = AB603F571BE710C5008DE82F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB603F151BE70F7F008DE82F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB603F651BE71511008DE82F /* index.html in Resources */,
+				AB603F2A1BE70F7F008DE82F /* LaunchScreen.storyboard in Resources */,
+				AB603F271BE70F7F008DE82F /* Assets.xcassets in Resources */,
+				AB603F251BE70F7F008DE82F /* Main.storyboard in Resources */,
+				AB603F5B1BE711CF008DE82F /* config.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB603F2E1BE70F80008DE82F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB603F391BE70F80008DE82F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB603F5C1BE71348008DE82F /* copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB603F131BE70F7F008DE82F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB603F221BE70F7F008DE82F /* ViewController.m in Sources */,
+				AB603F1F1BE70F7F008DE82F /* AppDelegate.m in Sources */,
+				AB603F1C1BE70F7F008DE82F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB603F2C1BE70F80008DE82F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB603F351BE70F80008DE82F /* Cordova_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB603F371BE70F80008DE82F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB603F401BE70F80008DE82F /* Cordova_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB603F321BE70F80008DE82F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB603F161BE70F7F008DE82F /* Cordova_Demo */;
+			targetProxy = AB603F311BE70F80008DE82F /* PBXContainerItemProxy */;
+		};
+		AB603F3D1BE70F80008DE82F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB603F161BE70F7F008DE82F /* Cordova_Demo */;
+			targetProxy = AB603F3C1BE70F80008DE82F /* PBXContainerItemProxy */;
+		};
+		AB603F5E1BE71477008DE82F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = AB603F5D1BE71477008DE82F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB603F231BE70F7F008DE82F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB603F241BE70F7F008DE82F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB603F281BE70F7F008DE82F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB603F291BE70F7F008DE82F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB603F421BE70F80008DE82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB603F431BE70F80008DE82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB603F451BE70F80008DE82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cordova_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meng.Cordova-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB603F461BE70F80008DE82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cordova_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meng.Cordova-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB603F481BE70F80008DE82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Cordova_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meng.Cordova-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cordova_Demo.app/Cordova_Demo";
+			};
+			name = Debug;
+		};
+		AB603F491BE70F80008DE82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Cordova_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meng.Cordova-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cordova_Demo.app/Cordova_Demo";
+			};
+			name = Release;
+		};
+		AB603F4B1BE70F80008DE82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Cordova_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meng.Cordova-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cordova_Demo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AB603F4C1BE70F80008DE82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Cordova_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meng.Cordova-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cordova_Demo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB603F121BE70F7F008DE82F /* Build configuration list for PBXProject "Cordova_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB603F421BE70F80008DE82F /* Debug */,
+				AB603F431BE70F80008DE82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB603F441BE70F80008DE82F /* Build configuration list for PBXNativeTarget "Cordova_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB603F451BE70F80008DE82F /* Debug */,
+				AB603F461BE70F80008DE82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB603F471BE70F80008DE82F /* Build configuration list for PBXNativeTarget "Cordova_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB603F481BE70F80008DE82F /* Debug */,
+				AB603F491BE70F80008DE82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB603F4A1BE70F80008DE82F /* Build configuration list for PBXNativeTarget "Cordova_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB603F4B1BE70F80008DE82F /* Debug */,
+				AB603F4C1BE70F80008DE82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB603F0F1BE70F7F008DE82F /* Project object */;
+}

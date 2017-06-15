@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:L12RunTime/L12RunTime.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L11Emoji/L11Emoji.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L10Property/L10Property.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L09NSDateDemo/L09NSDateDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L06ShareInstance/L06ShareInstance.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L05Protocol/L05Protocol.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L04Category/L04Category.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L03Notificaton/L03Notificaton.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L02VarsAndConstants/L02VarsAndConstants.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L01UIResponder/L01UIResponder.xcodeproj">
+   </FileRef>
+</Workspace>

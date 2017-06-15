@@ -1,0 +1,8 @@
+target "MAScan" do
+#platform :ios,'8.0'
+
+pod "PureLayout"
+
+
+
+end

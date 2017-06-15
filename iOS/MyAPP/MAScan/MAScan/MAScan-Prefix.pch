@@ -1,0 +1,27 @@
+//
+//  MAScan-Prefix.pch
+//  MAScan
+//
+//  Created by mengai on 2017/1/10.
+//  Copyright © 2017年 Meng. All rights reserved.
+//
+
+#ifndef MAScan_Prefix_pch
+#define MAScan_Prefix_pch
+
+
+//因为在一个OC工程中，可能包含.m、.mm、.c、.cpp四类编译文件，这四类文件均会引用.pch预编译头。在编译.c、.cpp时，因为语法不兼容OC，所以预编译头中不能包含objc代码。
+//But因为.pch是2类源文件共用的，所以在pch中，oc头文件要用__OBJC__包含起来。
+#ifdef __OBJC__
+    #import "UIColor+JKNAdditions.h"
+    #import <ALView+PureLayout.h>
+    #import "Defines.h"
+
+#endif
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* MAScan_Prefix_pch */

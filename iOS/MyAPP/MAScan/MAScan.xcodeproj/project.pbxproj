@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2088A9E608000830ED51D51A /* libPods-MAScan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1074B79C5F19CCA0E86EB5F /* libPods-MAScan.a */; };
+		AB8BC3921E2535CE00405A3C /* scan_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8BC3901E2535CE00405A3C /* scan_bg@2x.png */; };
+		AB8BC3931E2535CE00405A3C /* scan_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8BC3911E2535CE00405A3C /* scan_bg@3x.png */; };
+		ABB93B2B1E224C0B00F20CC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB93B2A1E224C0B00F20CC2 /* main.m */; };
+		ABB93B2E1E224C0B00F20CC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB93B2D1E224C0B00F20CC2 /* AppDelegate.m */; };
+		ABB93B361E224C0B00F20CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB93B351E224C0B00F20CC2 /* Assets.xcassets */; };
+		ABB93B391E224C0B00F20CC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB93B371E224C0B00F20CC2 /* LaunchScreen.storyboard */; };
+		ABB93B441E224C0B00F20CC2 /* MAScanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB93B431E224C0B00F20CC2 /* MAScanTests.m */; };
+		ABB93B4F1E224C0B00F20CC2 /* MAScanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB93B4E1E224C0B00F20CC2 /* MAScanUITests.m */; };
+		ABB93B5E1E224F3400F20CC2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB93B5D1E224F3400F20CC2 /* BaseViewController.m */; };
+		ABB93B611E224F4300F20CC2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB93B601E224F4300F20CC2 /* FirstViewController.m */; };
+		ABB93B641E224F4F00F20CC2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB93B631E224F4F00F20CC2 /* SecondViewController.m */; };
+		ABB93B671E224F5A00F20CC2 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB93B661E224F5A00F20CC2 /* SettingViewController.m */; };
+		ABB93B6A1E22546400F20CC2 /* MAScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB93B691E22546400F20CC2 /* MAScanningView.m */; };
+		ABB93B6D1E2258B500F20CC2 /* UIColor+JKNAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB93B6C1E2258B500F20CC2 /* UIColor+JKNAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABB93B401E224C0B00F20CC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB93B1E1E224C0B00F20CC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB93B251E224C0B00F20CC2;
+			remoteInfo = MAScan;
+		};
+		ABB93B4B1E224C0B00F20CC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB93B1E1E224C0B00F20CC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB93B251E224C0B00F20CC2;
+			remoteInfo = MAScan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB8BC3901E2535CE00405A3C /* scan_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scan_bg@2x.png"; sourceTree = "<group>"; };
+		AB8BC3911E2535CE00405A3C /* scan_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scan_bg@3x.png"; sourceTree = "<group>"; };
+		AB8BC3951E25382D00405A3C /* MAScan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MAScan-Prefix.pch"; sourceTree = "<group>"; };
+		AB8BC3961E253BA000405A3C /* Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		ABB93B261E224C0B00F20CC2 /* MAScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB93B2A1E224C0B00F20CC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABB93B2C1E224C0B00F20CC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABB93B2D1E224C0B00F20CC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABB93B351E224C0B00F20CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABB93B381E224C0B00F20CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABB93B3A1E224C0B00F20CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB93B3F1E224C0B00F20CC2 /* MAScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAScanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB93B431E224C0B00F20CC2 /* MAScanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAScanTests.m; sourceTree = "<group>"; };
+		ABB93B451E224C0B00F20CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB93B4A1E224C0B00F20CC2 /* MAScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB93B4E1E224C0B00F20CC2 /* MAScanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAScanUITests.m; sourceTree = "<group>"; };
+		ABB93B501E224C0B00F20CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB93B5C1E224F3400F20CC2 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		ABB93B5D1E224F3400F20CC2 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		ABB93B5F1E224F4300F20CC2 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		ABB93B601E224F4300F20CC2 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		ABB93B621E224F4F00F20CC2 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		ABB93B631E224F4F00F20CC2 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		ABB93B651E224F5A00F20CC2 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		ABB93B661E224F5A00F20CC2 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		ABB93B681E22546400F20CC2 /* MAScanningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAScanningView.h; sourceTree = "<group>"; };
+		ABB93B691E22546400F20CC2 /* MAScanningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAScanningView.m; sourceTree = "<group>"; };
+		ABB93B6B1E2258B500F20CC2 /* UIColor+JKNAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JKNAdditions.h"; sourceTree = "<group>"; };
+		ABB93B6C1E2258B500F20CC2 /* UIColor+JKNAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JKNAdditions.m"; sourceTree = "<group>"; };
+		CDABD1072D3968C9D266A475 /* Pods-MAScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAScan.release.xcconfig"; path = "Pods/Target Support Files/Pods-MAScan/Pods-MAScan.release.xcconfig"; sourceTree = "<group>"; };
+		D1074B79C5F19CCA0E86EB5F /* libPods-MAScan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MAScan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3963D3510254FABB3202D1F /* Pods-MAScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAScan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MAScan/Pods-MAScan.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABB93B231E224C0B00F20CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2088A9E608000830ED51D51A /* libPods-MAScan.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB93B3C1E224C0B00F20CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB93B471E224C0B00F20CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C25514DA49CCBCB09A43714 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3963D3510254FABB3202D1F /* Pods-MAScan.debug.xcconfig */,
+				CDABD1072D3968C9D266A475 /* Pods-MAScan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5D4C947B3673FFC60778FF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1074B79C5F19CCA0E86EB5F /* libPods-MAScan.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB8BC38F1E2535CE00405A3C /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				AB8BC3901E2535CE00405A3C /* scan_bg@2x.png */,
+				AB8BC3911E2535CE00405A3C /* scan_bg@3x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		ABB93B1D1E224C0B00F20CC2 = {
+			isa = PBXGroup;
+			children = (
+				ABB93B281E224C0B00F20CC2 /* MAScan */,
+				ABB93B421E224C0B00F20CC2 /* MAScanTests */,
+				ABB93B4D1E224C0B00F20CC2 /* MAScanUITests */,
+				ABB93B271E224C0B00F20CC2 /* Products */,
+				8C25514DA49CCBCB09A43714 /* Pods */,
+				A5D4C947B3673FFC60778FF7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABB93B271E224C0B00F20CC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABB93B261E224C0B00F20CC2 /* MAScan.app */,
+				ABB93B3F1E224C0B00F20CC2 /* MAScanTests.xctest */,
+				ABB93B4A1E224C0B00F20CC2 /* MAScanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB93B281E224C0B00F20CC2 /* MAScan */ = {
+			isa = PBXGroup;
+			children = (
+				AB8BC38F1E2535CE00405A3C /* resource */,
+				ABB93B2C1E224C0B00F20CC2 /* AppDelegate.h */,
+				ABB93B2D1E224C0B00F20CC2 /* AppDelegate.m */,
+				AB8BC3961E253BA000405A3C /* Defines.h */,
+				ABB93B681E22546400F20CC2 /* MAScanningView.h */,
+				ABB93B691E22546400F20CC2 /* MAScanningView.m */,
+				ABB93B5F1E224F4300F20CC2 /* FirstViewController.h */,
+				ABB93B601E224F4300F20CC2 /* FirstViewController.m */,
+				ABB93B621E224F4F00F20CC2 /* SecondViewController.h */,
+				ABB93B631E224F4F00F20CC2 /* SecondViewController.m */,
+				ABB93B651E224F5A00F20CC2 /* SettingViewController.h */,
+				ABB93B661E224F5A00F20CC2 /* SettingViewController.m */,
+				ABB93B5C1E224F3400F20CC2 /* BaseViewController.h */,
+				ABB93B5D1E224F3400F20CC2 /* BaseViewController.m */,
+				ABB93B6B1E2258B500F20CC2 /* UIColor+JKNAdditions.h */,
+				ABB93B6C1E2258B500F20CC2 /* UIColor+JKNAdditions.m */,
+				ABB93B351E224C0B00F20CC2 /* Assets.xcassets */,
+				ABB93B371E224C0B00F20CC2 /* LaunchScreen.storyboard */,
+				ABB93B3A1E224C0B00F20CC2 /* Info.plist */,
+				ABB93B291E224C0B00F20CC2 /* Supporting Files */,
+			);
+			path = MAScan;
+			sourceTree = "<group>";
+		};
+		ABB93B291E224C0B00F20CC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABB93B2A1E224C0B00F20CC2 /* main.m */,
+				AB8BC3951E25382D00405A3C /* MAScan-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABB93B421E224C0B00F20CC2 /* MAScanTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABB93B431E224C0B00F20CC2 /* MAScanTests.m */,
+				ABB93B451E224C0B00F20CC2 /* Info.plist */,
+			);
+			path = MAScanTests;
+			sourceTree = "<group>";
+		};
+		ABB93B4D1E224C0B00F20CC2 /* MAScanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABB93B4E1E224C0B00F20CC2 /* MAScanUITests.m */,
+				ABB93B501E224C0B00F20CC2 /* Info.plist */,
+			);
+			path = MAScanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABB93B251E224C0B00F20CC2 /* MAScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB93B531E224C0B00F20CC2 /* Build configuration list for PBXNativeTarget "MAScan" */;
+			buildPhases = (
+				89E8D73310AEC40362168B65 /* [CP] Check Pods Manifest.lock */,
+				ABB93B221E224C0B00F20CC2 /* Sources */,
+				ABB93B231E224C0B00F20CC2 /* Frameworks */,
+				ABB93B241E224C0B00F20CC2 /* Resources */,
+				EA9B631D2E024D3EC26F1EA4 /* [CP] Embed Pods Frameworks */,
+				F03821A552FC484AAF09CE67 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAScan;
+			productName = MAScan;
+			productReference = ABB93B261E224C0B00F20CC2 /* MAScan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABB93B3E1E224C0B00F20CC2 /* MAScanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB93B561E224C0B00F20CC2 /* Build configuration list for PBXNativeTarget "MAScanTests" */;
+			buildPhases = (
+				ABB93B3B1E224C0B00F20CC2 /* Sources */,
+				ABB93B3C1E224C0B00F20CC2 /* Frameworks */,
+				ABB93B3D1E224C0B00F20CC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB93B411E224C0B00F20CC2 /* PBXTargetDependency */,
+			);
+			name = MAScanTests;
+			productName = MAScanTests;
+			productReference = ABB93B3F1E224C0B00F20CC2 /* MAScanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABB93B491E224C0B00F20CC2 /* MAScanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB93B591E224C0B00F20CC2 /* Build configuration list for PBXNativeTarget "MAScanUITests" */;
+			buildPhases = (
+				ABB93B461E224C0B00F20CC2 /* Sources */,
+				ABB93B471E224C0B00F20CC2 /* Frameworks */,
+				ABB93B481E224C0B00F20CC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB93B4C1E224C0B00F20CC2 /* PBXTargetDependency */,
+			);
+			name = MAScanUITests;
+			productName = MAScanUITests;
+			productReference = ABB93B4A1E224C0B00F20CC2 /* MAScanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABB93B1E1E224C0B00F20CC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Meng;
+				TargetAttributes = {
+					ABB93B251E224C0B00F20CC2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 82KRK4P728;
+						ProvisioningStyle = Automatic;
+					};
+					ABB93B3E1E224C0B00F20CC2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = E29Y9Z5PCY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ABB93B251E224C0B00F20CC2;
+					};
+					ABB93B491E224C0B00F20CC2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = E29Y9Z5PCY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ABB93B251E224C0B00F20CC2;
+					};
+				};
+			};
+			buildConfigurationList = ABB93B211E224C0B00F20CC2 /* Build configuration list for PBXProject "MAScan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABB93B1D1E224C0B00F20CC2;
+			productRefGroup = ABB93B271E224C0B00F20CC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB93B251E224C0B00F20CC2 /* MAScan */,
+				ABB93B3E1E224C0B00F20CC2 /* MAScanTests */,
+				ABB93B491E224C0B00F20CC2 /* MAScanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABB93B241E224C0B00F20CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8BC3921E2535CE00405A3C /* scan_bg@2x.png in Resources */,
+				AB8BC3931E2535CE00405A3C /* scan_bg@3x.png in Resources */,
+				ABB93B391E224C0B00F20CC2 /* LaunchScreen.storyboard in Resources */,
+				ABB93B361E224C0B00F20CC2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB93B3D1E224C0B00F20CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB93B481E224C0B00F20CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89E8D73310AEC40362168B65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA9B631D2E024D3EC26F1EA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MAScan/Pods-MAScan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F03821A552FC484AAF09CE67 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MAScan/Pods-MAScan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB93B221E224C0B00F20CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB93B641E224F4F00F20CC2 /* SecondViewController.m in Sources */,
+				ABB93B5E1E224F3400F20CC2 /* BaseViewController.m in Sources */,
+				ABB93B671E224F5A00F20CC2 /* SettingViewController.m in Sources */,
+				ABB93B6D1E2258B500F20CC2 /* UIColor+JKNAdditions.m in Sources */,
+				ABB93B611E224F4300F20CC2 /* FirstViewController.m in Sources */,
+				ABB93B2E1E224C0B00F20CC2 /* AppDelegate.m in Sources */,
+				ABB93B6A1E22546400F20CC2 /* MAScanningView.m in Sources */,
+				ABB93B2B1E224C0B00F20CC2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB93B3B1E224C0B00F20CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB93B441E224C0B00F20CC2 /* MAScanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB93B461E224C0B00F20CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB93B4F1E224C0B00F20CC2 /* MAScanUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABB93B411E224C0B00F20CC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB93B251E224C0B00F20CC2 /* MAScan */;
+			targetProxy = ABB93B401E224C0B00F20CC2 /* PBXContainerItemProxy */;
+		};
+		ABB93B4C1E224C0B00F20CC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB93B251E224C0B00F20CC2 /* MAScan */;
+			targetProxy = ABB93B4B1E224C0B00F20CC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABB93B371E224C0B00F20CC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB93B381E224C0B00F20CC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABB93B511E224C0B00F20CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABB93B521E224C0B00F20CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABB93B541E224C0B00F20CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3963D3510254FABB3202D1F /* Pods-MAScan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82KRK4P728;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MAScan/MAScan-Prefix.pch";
+				INFOPLIST_FILE = MAScan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.MAScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABB93B551E224C0B00F20CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDABD1072D3968C9D266A475 /* Pods-MAScan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82KRK4P728;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MAScan/MAScan-Prefix.pch";
+				INFOPLIST_FILE = MAScan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.MAScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABB93B571E224C0B00F20CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E29Y9Z5PCY;
+				INFOPLIST_FILE = MAScanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.MAScanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAScan.app/MAScan";
+			};
+			name = Debug;
+		};
+		ABB93B581E224C0B00F20CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E29Y9Z5PCY;
+				INFOPLIST_FILE = MAScanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.MAScanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAScan.app/MAScan";
+			};
+			name = Release;
+		};
+		ABB93B5A1E224C0B00F20CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = E29Y9Z5PCY;
+				INFOPLIST_FILE = MAScanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.MAScanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MAScan;
+			};
+			name = Debug;
+		};
+		ABB93B5B1E224C0B00F20CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = E29Y9Z5PCY;
+				INFOPLIST_FILE = MAScanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.MAScanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MAScan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABB93B211E224C0B00F20CC2 /* Build configuration list for PBXProject "MAScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB93B511E224C0B00F20CC2 /* Debug */,
+				ABB93B521E224C0B00F20CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB93B531E224C0B00F20CC2 /* Build configuration list for PBXNativeTarget "MAScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB93B541E224C0B00F20CC2 /* Debug */,
+				ABB93B551E224C0B00F20CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB93B561E224C0B00F20CC2 /* Build configuration list for PBXNativeTarget "MAScanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB93B571E224C0B00F20CC2 /* Debug */,
+				ABB93B581E224C0B00F20CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB93B591E224C0B00F20CC2 /* Build configuration list for PBXNativeTarget "MAScanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB93B5A1E224C0B00F20CC2 /* Debug */,
+				ABB93B5B1E224C0B00F20CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABB93B1E1E224C0B00F20CC2 /* Project object */;
+}

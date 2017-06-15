@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:L09NSDate/L09NSDate.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L01VarAndConstant/L01VarAndConstant.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HelloSwift3/HelloSwift3.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Swift3&#x77e5;&#x8bc6;&#x79ef;&#x7d2f;/Swift3&#x77e5;&#x8bc6;&#x79ef;&#x7d2f;.xcodeproj">
+   </FileRef>
+</Workspace>
